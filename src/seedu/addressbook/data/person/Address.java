@@ -40,8 +40,7 @@ public class Address {
     }
 
     /**
-     * Retrieves a listing of every word in the name, in order.
-     * new-added
+     * Retrieves a listing of every word in the address, in order.
      */
     public List<String> getWordsInAddress() {
         return Arrays.asList(value.split("\\s+"));
