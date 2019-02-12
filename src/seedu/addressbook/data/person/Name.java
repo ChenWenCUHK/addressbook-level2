@@ -41,6 +41,7 @@ public class Name {
      */
     public List<String> getWordsInName() {
         return Arrays.asList(fullName.split("\\s+"));
+
     }
 
     @Override
